@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `ppc64le` builds of [the `eclipse-temurin` official image](https://hub.docker.com/_/eclipse-temurin) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -30,49 +32,21 @@ WARNING:
 
 -	[`8u302-b08-jdk-focal`, `8-jdk-focal`, `8-focal`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/8/jdk/ubuntu/Dockerfile.releases.full)
 -	[`8u302-b08-jdk-centos7`, `8-jdk-centos7`, `8-centos7`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/8/jdk/centos/Dockerfile.releases.full)
--	[`8u302-b08-jdk-windowsservercore-1809`, `8-jdk-windowsservercore-1809`, `8-windowsservercore-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/8/jdk/windows/windowsservercore-1809/Dockerfile.releases.full)
--	[`8u302-b08-jdk-windowsservercore-ltsc2016`, `8-jdk-windowsservercore-ltsc2016`, `8-windowsservercore-ltsc2016`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/8/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full)
--	[`8u302-b08-jdk-nanoserver-1809`, `8-jdk-nanoserver-1809`, `8-nanoserver-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/8/jdk/windows/nanoserver-1809/Dockerfile.releases.full)
 -	[`11.0.12_7-jdk-focal`, `11-jdk-focal`, `11-focal`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/11/jdk/ubuntu/Dockerfile.releases.full)
 -	[`11.0.12_7-jdk-centos7`, `11-jdk-centos7`, `11-centos7`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/11/jdk/centos/Dockerfile.releases.full)
--	[`11.0.12_7-jdk-windowsservercore-1809`, `11-jdk-windowsservercore-1809`, `11-windowsservercore-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/11/jdk/windows/windowsservercore-1809/Dockerfile.releases.full)
--	[`11.0.12_7-jdk-windowsservercore-ltsc2016`, `11-jdk-windowsservercore-ltsc2016`, `11-windowsservercore-ltsc2016`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/11/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full)
--	[`11.0.12_7-jdk-nanoserver-1809`, `11-jdk-nanoserver-1809`, `11-nanoserver-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/11/jdk/windows/nanoserver-1809/Dockerfile.releases.full)
 -	[`16.0.2_7-jdk-focal`, `16-jdk-focal`, `16-focal`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/16/jdk/ubuntu/Dockerfile.releases.full)
 -	[`16.0.2_7-jdk-centos7`, `16-jdk-centos7`, `16-centos7`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/16/jdk/centos/Dockerfile.releases.full)
--	[`16.0.2_7-jdk-windowsservercore-1809`, `16-jdk-windowsservercore-1809`, `16-windowsservercore-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/16/jdk/windows/windowsservercore-1809/Dockerfile.releases.full)
--	[`16.0.2_7-jdk-windowsservercore-ltsc2016`, `16-jdk-windowsservercore-ltsc2016`, `16-windowsservercore-ltsc2016`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/16/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full)
--	[`16.0.2_7-jdk-nanoserver-1809`, `16-jdk-nanoserver-1809`, `16-nanoserver-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/16/jdk/windows/nanoserver-1809/Dockerfile.releases.full)
 
 ## Shared Tags
 
 -	`8u302-b08-jdk`, `8-jdk`, `8`:
 	-	[`8u302-b08-jdk-focal`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/8/jdk/ubuntu/Dockerfile.releases.full)
-	-	[`8u302-b08-jdk-windowsservercore-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/8/jdk/windows/windowsservercore-1809/Dockerfile.releases.full)
-	-	[`8u302-b08-jdk-windowsservercore-ltsc2016`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/8/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full)
--	`8u302-b08-jdk-windowsservercore`, `8-jdk-windowsservercore`, `8-windowsservercore`:
-	-	[`8u302-b08-jdk-windowsservercore-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/8/jdk/windows/windowsservercore-1809/Dockerfile.releases.full)
-	-	[`8u302-b08-jdk-windowsservercore-ltsc2016`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/8/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full)
--	`8u302-b08-jdk-nanoserver`, `8-jdk-nanoserver`, `8-nanoserver`:
-	-	[`8u302-b08-jdk-nanoserver-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/8/jdk/windows/nanoserver-1809/Dockerfile.releases.full)
 -	`11.0.12_7-jdk`, `11-jdk`, `11`:
 	-	[`11.0.12_7-jdk-focal`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/11/jdk/ubuntu/Dockerfile.releases.full)
-	-	[`11.0.12_7-jdk-windowsservercore-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/11/jdk/windows/windowsservercore-1809/Dockerfile.releases.full)
-	-	[`11.0.12_7-jdk-windowsservercore-ltsc2016`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/11/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full)
--	`11.0.12_7-jdk-windowsservercore`, `11-jdk-windowsservercore`, `11-windowsservercore`:
-	-	[`11.0.12_7-jdk-windowsservercore-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/11/jdk/windows/windowsservercore-1809/Dockerfile.releases.full)
-	-	[`11.0.12_7-jdk-windowsservercore-ltsc2016`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/11/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full)
--	`11.0.12_7-jdk-nanoserver`, `11-jdk-nanoserver`, `11-nanoserver`:
-	-	[`11.0.12_7-jdk-nanoserver-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/11/jdk/windows/nanoserver-1809/Dockerfile.releases.full)
 -	`16.0.2_7-jdk`, `16-jdk`, `16`, `latest`:
 	-	[`16.0.2_7-jdk-focal`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/16/jdk/ubuntu/Dockerfile.releases.full)
-	-	[`16.0.2_7-jdk-windowsservercore-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/16/jdk/windows/windowsservercore-1809/Dockerfile.releases.full)
-	-	[`16.0.2_7-jdk-windowsservercore-ltsc2016`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/16/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full)
--	`16.0.2_7-jdk-windowsservercore`, `16-jdk-windowsservercore`, `16-windowsservercore`:
-	-	[`16.0.2_7-jdk-windowsservercore-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/16/jdk/windows/windowsservercore-1809/Dockerfile.releases.full)
-	-	[`16.0.2_7-jdk-windowsservercore-ltsc2016`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/16/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full)
--	`16.0.2_7-jdk-nanoserver`, `16-jdk-nanoserver`, `16-nanoserver`:
-	-	[`16.0.2_7-jdk-nanoserver-1809`](https://github.com/adoptium/containers/blob/94ec04760777535e1ba0374f5ba051eabcf9b2ac/16/jdk/windows/nanoserver-1809/Dockerfile.releases.full)
+
+[![ppc64le/eclipse-temurin build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/eclipse-temurin.svg?label=ppc64le/eclipse-temurin%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/eclipse-temurin/)
 
 # Quick reference (cont.)
 
@@ -118,7 +92,7 @@ More architecures will be available shortly.
 To run a pre-built jar file with the latest OpenJDK 11, use the following Dockerfile:
 
 ```dockerfile
-FROM eclipse-temurin:11
+FROM ppc64le/eclipse-temurin:11
 RUN mkdir /opt/app
 COPY japp.jar /opt/app
 CMD ["java", "-jar", "/opt/app/japp.jar"]
@@ -139,7 +113,7 @@ If you are using a distribution that we don't provide an image for you can copy 
 # Example
 FROM <base image>
 ENV JAVA_HOME=/opt/java/openjdk
-COPY --from=eclipse-temurin:11 $JAVA_HOME $JAVA_HOME
+COPY --from=ppc64le/eclipse-temurin:11 $JAVA_HOME $JAVA_HOME
 ENV PATH="${JAVA_HOME}/bin:${PATH}"
 ```
 
@@ -149,7 +123,7 @@ On OpenJDK 11+, a JRE can be generated using `jlink`, see the following Dockerfi
 
 ```dockerfile
 # Example of custom Java runtime using jlink in a multi-stage container build
-FROM eclipse-temurin:11 as jre-build
+FROM ppc64le/eclipse-temurin:11 as jre-build
 
 # Create a custom Java runtime
 RUN $JAVA_HOME/bin/jlink \
@@ -175,7 +149,7 @@ CMD ["java", "-jar", "/opt/app/japp.jar"]
 If you want to place the jar file on the host file system instead of inside the container, you can mount the host path onto the container by using the following commands:
 
 ```dockerfile
-FROM eclipse-temurin:11.0.12_7-jdk
+FROM ppc64le/eclipse-temurin:11.0.12_7-jdk
 CMD ["java", "-jar", "/opt/app/japp.jar"]
 ```
 
@@ -183,25 +157,6 @@ CMD ["java", "-jar", "/opt/app/japp.jar"]
 docker build -t japp .
 docker run -it -v /path/on/host/system/jars:/opt/app japp
 ```
-
-# Image Variants
-
-The `eclipse-temurin` images come in many flavors, each designed for a specific use case.
-
-## `eclipse-temurin:<version>`
-
-This is the defacto image. If you are unsure about what your needs are, you probably want to use this one. It is designed to be used both as a throw away container (mount your source code and start the container to start your app), as well as the base to build other images off of.
-
-Some of these tags may have names like focal in them. These are the suite code names for releases of [Ubuntu](https://wiki.ubuntu.com/Releases) and indicate which release the image is based on. If your image needs to install any additional packages beyond what comes with the image, you'll likely want to specify one of these explicitly to minimize breakage when there are new releases of Ubuntu.
-
-## `eclipse-temurin:<version>-windowsservercore`
-
-This image is based on [Windows Server Core (`microsoft/windowsservercore`)](https://hub.docker.com/r/microsoft/windowsservercore/). As such, it only works in places which that image does, such as Windows 10 Professional/Enterprise (Anniversary Edition) or Windows Server 2016.
-
-For information about how to get Docker running on Windows, please see the relevant "Quick Start" guide provided by Microsoft:
-
--	[Windows Server Quick Start](https://msdn.microsoft.com/en-us/virtualization/windowscontainers/quick_start/quick_start_windows_server)
--	[Windows 10 Quick Start](https://msdn.microsoft.com/en-us/virtualization/windowscontainers/quick_start/quick_start_windows_10)
 
 # License
 
